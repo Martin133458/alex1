@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #333;
+}
+
+.head {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 58px;
+}
+
+nav>a {
+    color: #DEDEDE;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.pictures {
+    background-image: url(./img/unsplash_QBpZGqEMsKg.png);
+  background-size: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+}
+section {
+    background-color: #202020;
+ 
+}
+/* .container {
+    max-width: 1690px;
+    height: 500px;
+} */
+.content52 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-top: 128px;
+    gap: 112px;
+}
+.content {
+    display: flex;  
+    flex-direction: column;
+}
+.content1 {
+    display: flex;
+    gap: 252px;
+}
+.p {
+    color: #DEDEDE;
+    font-size: 20px;
+}
+.h1 {
+    color: #959595;
+    font-size: 16px;
+}
+.p3 {
+    color: #DEDEDE;
+    font-size: 20px;
+}
+.content3 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.p1 {
+    font-size: 32px;
+    color: #DEDEDE;
+}
+.h2 {
+    color: #959595;
+    font-size: 16px;
+    border-bottom: 2px solid #959595;
+    width: 175px;
+}
+.pictures1 {
+    background-image: url(./img/unsplash_yWwob8kwOCk.png);
+    background-size: 100%;
+    height: 769px;
+    background-repeat: no-repeat;
+}
+.container1 {
+    width: 80%;
+    margin: 0 auto;
+ 
+}
+.content6 {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    padding-top: 120px;
+ 
+}
+.pictures4 {
+    background-image: url(./img/Rectangle\ 9.png);
+    background-size: 100%;
+    height: 763px;
+    width: 506px;
+    background-repeat: no-repeat;
+}
+.p2 {
+    width: 612px;
+    height: 108px;
+    font-size: 32px;
+    color: #DEDEDE;
+}
+.content7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pictures5 {
+    background-image: url(./img/Rectangle\ 19.png);
+    background-size: 100%;
+    height: 763px;
+    width: 506px;
+    background-repeat: no-repeat;
+}
+.content53 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
+}
+.content2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 30px;
+}
+.pictures6 {
+    background-image: url(./img/Rectangle\ 12.png);
+    background-size: 100%;
+    height: 674px;
+    width: 1248px;
+    background-repeat: no-repeat;  
+}
+.nav {
+display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 200px;
+   padding-bottom: 200px;
+}
+.a {
+ 
+    color: #DEDEDE;
+    font-size: 32px;
+    border-bottom: 2px solid #959595;
+    width: 153px;
+}
+footer {
+    background-color: #202020;
+    border-top: 1px solid #696969;
+}
+.flex_footer {
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+height: 10vh;
+}
+span {
+    color: #fff;
+}
+h3 {
+    color: #696969;
+}
+@media (max-width:1100px) {
+ nav {
+    display: none;
+ }  
+ .pictures {
+  
+    background-image: url(./img/Rectangle\ 17.png);
+ } 
+.p3 {
+    font-size: 30px;
+}
+.content1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+padding-right: 10px;
+}
+.p {
+    width: 175px;
+}
+.content52 {
+   display: flex;
+   justify-content: start;
+  
+}
+.pictures1 {
+    background-image: url(./img/Rectangle\ 18.png);
+}
+.content6 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.pictures4 {
+   
+  background-image: url(./img/Rectangle\ 9\ \(1\).png);
+    background-size: 100%;
+    width: 366px;
+}
+.p2 {
+    width: 366px;
+}
+.content7 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 130px;
+}
+.pictures5 {
+    background-image: url(./img/Rectangle\ 19\ \(1\).png);
+    background-size: 100%;
+    width: 366px;
+}
+.pictures6 {
+    background-image: url(./img/Rectangle\ 20.png);
+    background-size: 100%;
+    width: 366px;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 0;
+padding-bottom: 60px;
+}
+.a {
+    display: flex;
+    justify-content: center;
+    
+}
+.flex_footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+}
